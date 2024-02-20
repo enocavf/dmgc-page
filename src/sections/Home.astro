@@ -1,0 +1,9 @@
+---
+import Hero from '../images/hero.avif';
+import { Image } from "astro:assets";
+---
+<section class="w-full h-screen">
+    <div class="w-full h-full bg-black/60 z-0 absolute top-0"></div>
+    <Image src={Hero} alt='Security guard looking at a screen' 
+    class='w-full h-full object-cover -z-20'/>
+</section>
