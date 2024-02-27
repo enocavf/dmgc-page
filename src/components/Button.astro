@@ -1,0 +1,24 @@
+---
+interface Props {
+    text: string;
+}
+
+const { text } = Astro.props
+
+/* // JavaScript
+
+const x = 1;
+const y = '2';
+
+x + y = '12' // No tiene tipado
+
+// TypeScript
+const x = 1; //int o tipo number
+const y = '2'; // tipo string
+
+x + y = error */
+
+---
+<button class="bg-dmgcBlue py-3 px-6 text-2xl font-bold rounded-lg w-[320px] text-center">
+    {text}
+</button>

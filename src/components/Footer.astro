@@ -1,0 +1,12 @@
+---
+import Logo from '../images/logo.avif'
+import { Image } from 'astro:assets';
+import Mapa from '../images/mapa.avif'
+---
+
+<section class="bg-[#08121A] h-[420px] flex place-content-between px-60 text-center items-center gap-40 max-w-[120rem]">
+    <Image src={Logo} alt="DMGC logo" class='max-w-[266px] max-h-[88px]' />
+    <p class="text-lg w-[600px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fuga vel, ipsum voluptas veritatis ipsa cum officia a fugit aliquam porro sapiente illo earum tempora rerum commodi accusamus! Temporibus, nobis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, labore! Neque soluta dolorem nulla unde maiores architecto ratione blanditiis nostrum error cupiditate! Necessitatibus eveniet harum omnis rerum ducimus nihil deserunt.
+    </p>
+    <Image src={Mapa} alt="Mapa donde muestra nuesta ubicacion" class="w-[360px] h-[360px]" />
+</section>
